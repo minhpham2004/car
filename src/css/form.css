@@ -1,0 +1,196 @@
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mr-30 {
+    margin-left: 30px;
+}
+
+.no_border {
+    border: none;
+}
+
+.pt-7 {
+    padding-top: 7px;
+}
+
+
+
+
+
+.renting-form_container {
+    height: 2300px;
+    max-width: 100%;
+    display: flex;
+    background-color: rgb(246, 247, 249);
+}
+
+.billing_info {
+    width: 852px;
+    height: 336px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 32px;
+    margin-left: 32px;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.billing-info_text {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1A202C;
+}
+
+.billing-info_alert {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #90A3BF;
+}
+
+.billing_inputs {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    margin-top: 30px;
+}
+
+.billing-text {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 120%;
+    color: #1A202C;
+}
+
+.billing_input {
+    width: 386px;
+    height: 56px;
+    padding-left: 25px;
+    top: 36px;
+    background: #F6F7F9;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #90A3BF;
+    border: none;
+}
+
+.rental_info {
+    width: 852px;
+    height: 664px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 32px;
+    margin-left: 32px;
+    padding-left: 15px;
+}
+
+.payment {
+    width: 852px;
+    height: 596px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+.confirmation {
+    width: 852px;
+    height: 484px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+.select_locations {
+    width: 386px;
+    height: 56px;
+    background: #F6F7F9;
+    border-radius: 10px;
+}
+
+.select_locations::placeholder {
+    color: #90A3BF;
+}
+
+.payment {
+    margin: 32px 0 0 32px;
+    padding: 25px 0 0 20px
+}
+
+.credit_card {
+    border-radius: 10px;
+    padding-right: 20px;
+    margin-top: 30px;
+}
+
+.rental_info {
+    margin: 32px 0 0 32px;
+    padding: 25px 0 0 20px
+}
+
+.other_payment {
+    width: 804px;
+    height: 56px;
+    background: #F6F7F9;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+
+.confirmation {
+    margin: 32px 0 0 32px;
+    padding: 25px 0 0 20px
+}
+
+.rental_summary {
+    width: 492px;
+    height: 560px;
+    margin-left: 32px;
+    margin-top: 32px;
+    padding: 25px 0 0 20px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.rental-summary_alert {
+    width: 380px;
+    height: 48px;
+}
+
+.form-renting_btn {
+    width: 140px;
+    height: 56px;
+    background: #3563E9;
+    font-size: 16px;
+}
+
+.car-name_confirmed {
+    display: flex;
+}
+
+.car_name-confirmed {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 140%;
+    color: #1A202C;
+    padding-left: 30px;
+    padding-top: 40px
+}
+
+.price-div {
+  display: flex;
+  justify-content: space-between;  
+}

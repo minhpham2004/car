@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.filterBar {
+    display: flex;
+}
+
+.filter-bar_detail {
+    padding-left: 25px;
+    padding-top: 30px
+}
+
+.body_container {
+    width: 746px;
+    max-width: 100%;
+}
+
+.filter_container {
+    width: 360px;
+    height: 1600px;
+    box-sizing: border-box;
+    border-right: 1px solid #F3F5F7;
+    padding-left: 32px;
+    padding-top: 32px;
+    width: 25%;
+    max-width: 100%;
+    margin: 0
+}
+
+.h3_type {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150%;
+    color: #94A7CB;
+}
+
+
+.type_lists {
+    list-style: none;
+    padding: 10px 0 10px;
+}
+
+.h3_capacity {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150%;
+    padding-top: 50px;
+    color: #94A7CB;
+}
+
+.car_capacity {
+    list-style: none;
+    padding: 10px 0 10px;
+}
+
+.h3_price {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: #94A7CB;
+}
+
+.price_description {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 150%;
+}
+
+.body_container {
+    float: right;
+    width: 75%;
+    background-color: rgb(246, 247, 249);
+    height: 1600px;
+}
+
+.row_1 {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.pick_up {
+    width: 486px;
+    height: 210px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+.drop_off {
+
+    width: 486px;
+    height: 210px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 32px;
+    margin-left: 70px;
+}
+
+.top_text {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A202C;
+}
+
+.date_time {
+    text-align: center;
+}
+
+.row_2 {
+    display: flex;
+    padding-bottom: 32px;
+    flex-wrap: wrap;
+}
+
+.cars_containers {
+    width: 317px;
+    height: 388px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-left: 32px;
+    margin-right: 13px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.car_name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: 'Plus Jakarta Sans';
+}
+
+.car-type_single {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #90A3BF;
+    font-family: 'Plus Jakarta Sans';
+}
+
+.toggle_heart {
+    width: 20px;
+    height: 18px;
+}
+
+.heart_button {
+    border: none;
+    float: right;
+    padding-left: 10px;
+    background: #FFFFFF;
+    margin-right: 10px;
+}
+
+.car_description {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #90A3BF;
+    padding-top: 20px;
+}
+
+.descriptions_icons {
+    width: 15px;
+    height: 18px;
+    color: #90A3BF;
+}
+
+.price_description {
+  margin-bottom: 45px;
+}
+
+.sportcar_img {
+    width: 250px;
+    height: 180px;
+    left: 22px;
+    padding-top: 15px;
+}
+
+.SUV_img {
+    width: 250px;
+    height: 180px;
+    left: 22px;
+    padding-top: 15px;
+}
+
+.hatchback_img {
+    width: 250px;
+    height: 180px;
+    left: 22px;
+    padding-top: 15px;
+}
+
+.renting_price {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.car_price {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.price_description {
+    margin-bottom: 50px;
+}
+
+.renting_btn {
+    font-family: 'Plus Jakarta Sans';
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #3563E9;
+}
+    
+.navigation_link {
+    text-decoration: none;
+}
+    
+.car_price {
+    margin-top: 4px;
+}
+
+.renting-btn_div {
+    margin-right: 20px;
+}
+
+.renting_btn:hover {
+    color: #94A7CB;
+    background-color: rgb(19,58,137);
+}
+
